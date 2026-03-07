@@ -17,17 +17,8 @@ int main() {
         for(int i = 0 ; i < m ; i++){
             cin >> nums2[i];
         }
-        int maxSum = nums1[0];
-        for (int i = 0 ; i< n ; i++){
-        for (int j = 0 ; j < m ; j++){
-            if (nums2[j] == nums1[i]){
-               maxSum = maxSum + nums1[i]*2;
-               if (nums2[j])
-                
-            }
-        }
-      
-
-    }
+        
+        int maxPath = 0;
+        
     return 0;
 }
